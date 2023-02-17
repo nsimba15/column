@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.main{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.orange{
+    border-radius: 6px 0 0 6px;
+    width: 26vw;
+    height: auto;
+    padding: 44px;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+img{
+    width: 45px;
+}
+p{
+    line-height: 23px;
+    padding-top: 20px;
+}
+h1{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button{
+    font-weight: bolder;
+    width: 8rem;
+    font-size: 14px;
+    margin-top: 49px;
+    color:hsl(31, 77%, 52%);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+.button:hover{
+    padding: 8px;
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.darkcyan{
+    width: 25vw;
+    height: auto;
+    padding: 44px;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+.verydarkcyan{
+    border-radius: 0 6px 6px 0;
+    width: 25vw;
+    height: auto;
+    padding: 44px ;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+.button1{
+    font-weight: bolder;
+    width: 8rem;
+    font-size: 14px;
+    margin-top: 49px;
+    color:hsl(184, 100%, 22%);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+.button1:hover{
+    padding: 8px;
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color:white;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.button2{
+    font-weight: bolder;
+    cursor: pointer;
+    width: 8rem;
+    font-size: 14px;
+    margin-top: 49px;
+    color:hsl(179, 100%, 13%);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+.button2:hover{
+    padding: 8px;
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+@media (max-width: 920px) {
+
+.main{
+    padding: 20px;
+    font-size: 10px;
+    flex-direction: column;
+    }
+.main{
+    height: 50vh;
+    display: block;
+    width: 100%;
+        }
+.orange{
+    border-radius: none;
+    width: 100%;
+        }
+.darkcyan{
+    border-radius: none;
+    width: 100%;
+        }
+.verydarkcyan{
+    border-radius: none;
+    width: 100%;
+    } 
+}
+@media (max-width: 360px) {
+
+.main{
+    padding-top: 40px;
+    padding: 40px;
+    font-size: 8px;
+    display: block;
+    width: 100%;
+    }
+.orange{
+    border-radius: 0;
+    width: 100%;
+    }
+.darkcyan{
+    border-radius: 0;
+    width: 100%;
+    }
+.verydarkcyan{
+        width: 100%;
+    }   
+}
+
